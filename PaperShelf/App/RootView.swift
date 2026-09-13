@@ -29,13 +29,15 @@ struct RootView: View {
                 .padding()
                 .background(Color(.systemBackground))
             } else {
-                TabView {
+                TabView(selection: .constant(ProcessInfo.processInfo.arguments.contains("-ScreenshotSettings") ? 1 : 0)) {
                     ArchiveView()
                         .tabItem { Label("Shelf", systemImage: "books.vertical") }
                         .accessibilityLabel("Shelf tab")
+                        .tag(0)
                     SettingsView()
                         .tabItem { Label("Settings", systemImage: "gearshape") }
                         .accessibilityLabel("Settings tab")
+                        .tag(1)
                 }
             }
         }

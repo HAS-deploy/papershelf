@@ -9,7 +9,7 @@
 **Sources:** `docs/spec.md` / Anthony V1 brief 2026-09-12; factory shared constants; ASC Stage 0 preflight  
 **Owner:** Anthony McMurtrey  
 **Bundle:** `com.papershelf.app`  
-**Provisional marketing URL:** `https://has-deploy.github.io/papershelf/` (Pages not created yet — Stage 1.5)
+**Provisional marketing URL:** `https://has-deploy.github.io/papershelf/` (Pages live 2026-09-13)
 
 ## 1. One-sentence app purpose
 Scan a document; the app automatically names it, files it into one of six categories, makes it searchable via on-device OCR, and lets the user share a clean PDF — no account required.  
@@ -21,6 +21,7 @@ Scan a document; the app automatically names it, files it into one of six catego
 4.8 SIWA: **N/A** (no third-party login).
 
 ## 3. Payment model
+- [x] **Free + subscription + lifetime** — Free 20-document cap; Unlimited Annual auto-renewable $19.99/year; Unlimited Lifetime non-consumable $39.99
 - Free tier with document cap (20 stored documents)
 - Auto-renewable subscription: **Unlimited — $19.99/year**
 - Non-consumable: **Unlimited Lifetime — $39.99**
@@ -47,13 +48,13 @@ Scan a document; the app automatically names it, files it into one of six catego
 *(cite: no account)*
 
 ## 7. Permissions + NS*UsageDescription (planned)
-| Permission | Why | Planned usage string direction |
+| Permission | Info.plist key | Usage string (project.yml) |
 |---|---|---|
-| Camera | Document scanning | Scan paperwork to create PDFs |
-| Photo Library (read) | Import existing photos/files | Import documents from Photos |
-| Face ID | Optional app lock | Unlock PaperShelf |
+| Camera | `NSCameraUsageDescription` | PaperShelf needs the camera to scan documents. |
+| Photo Library (read) | `NSPhotoLibraryUsageDescription` | PaperShelf can import document photos from your library. |
+| Face ID | `NSFaceIDUsageDescription` | PaperShelf can lock the archive behind Face ID. |
 No microphone, no precise always location, no contacts, no HealthKit.  
-*(cite: V1 Scanner + Privacy)*
+*(cite: V1 Scanner + Privacy; strings match project.yml)*
 
 ## 8. Regulated / high-scrutiny flags
 | Flag | Status | Note |

@@ -45,9 +45,9 @@ targets:
           - UIInterfaceOrientationLandscapeLeft
           - UIInterfaceOrientationLandscapeRight
         ITSAppUsesNonExemptEncryption: false
-        NSCameraUsageDescription: PaperShelf needs the camera to scan documents.
-        NSPhotoLibraryUsageDescription: PaperShelf can import document photos from your library.
-        NSFaceIDUsageDescription: PaperShelf can lock the archive behind Face ID.
+        NSCameraUsageDescription: "PaperShelf needs the camera to scan documents."
+        NSPhotoLibraryUsageDescription: "PaperShelf can import document photos from your library."
+        NSFaceIDUsageDescription: "PaperShelf can lock the archive behind Face ID."
     settings:
       base:
         PRODUCT_BUNDLE_IDENTIFIER: com.papershelf.app

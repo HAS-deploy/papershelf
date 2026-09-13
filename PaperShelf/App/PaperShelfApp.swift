@@ -15,6 +15,11 @@ struct PaperShelfApp: App {
                     await appModel.purchases.refreshEntitlements()
                     await appModel.purchases.loadProducts()
                 }
+                .sheet(isPresented: .constant(ProcessInfo.processInfo.arguments.contains("-ScreenshotPaywall"))) {
+                    PaywallView()
+                        .environmentObject(appModel.entitlements)
+                        .environmentObject(appModel.purchases)
+                }
         }
         .modelContainer(for: ShelfDocument.self)
     }
