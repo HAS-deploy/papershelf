@@ -1,0 +1,13 @@
+{
+  "id": "utility_01_clean",
+  "expectedCategory": "HOME",
+  "searchTerms": [
+    "Electric",
+    "Utility",
+    "Gas bill"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "utility_01"
+}

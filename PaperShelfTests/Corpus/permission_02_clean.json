@@ -1,0 +1,13 @@
+{
+  "id": "permission_02_clean",
+  "expectedCategory": "SCHOOL",
+  "searchTerms": [
+    "School",
+    "Student",
+    "Enrollment"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "permission_02"
+}

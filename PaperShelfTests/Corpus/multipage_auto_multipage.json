@@ -1,0 +1,13 @@
+{
+  "id": "multipage_auto_multipage",
+  "expectedCategory": "AUTO",
+  "searchTerms": [
+    "VIN",
+    "Vehicle",
+    "DMV"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 2,
+  "sourceDoc": "multipage_auto"
+}

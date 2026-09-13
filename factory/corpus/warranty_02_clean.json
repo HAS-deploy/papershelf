@@ -1,0 +1,13 @@
+{
+  "id": "warranty_02_clean",
+  "expectedCategory": "AUTO",
+  "searchTerms": [
+    "Vehicle",
+    "Warranty",
+    "VIN"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "warranty_02"
+}

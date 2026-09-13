@@ -1,0 +1,13 @@
+{
+  "id": "permission_01_small4",
+  "expectedCategory": "SCHOOL",
+  "searchTerms": [
+    "Permission Slip",
+    "Student",
+    "Teacher"
+  ],
+  "cleanPrinted": false,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "permission_01"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "fin_apr_01_clean",
+  "expectedCategory": "FINANCIAL",
+  "searchTerms": [
+    "Credit card",
+    "APR",
+    "Account ending"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "fin_apr_01"
+}

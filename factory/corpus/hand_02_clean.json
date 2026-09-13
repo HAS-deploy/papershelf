@@ -1,0 +1,13 @@
+{
+  "id": "hand_02_clean",
+  "expectedCategory": "OTHER",
+  "searchTerms": [
+    "Milk",
+    "eggs",
+    "bread"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "hand_02"
+}

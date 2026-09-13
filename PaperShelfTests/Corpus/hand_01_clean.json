@@ -1,0 +1,13 @@
+{
+  "id": "hand_01_clean",
+  "expectedCategory": "SCHOOL",
+  "searchTerms": [
+    "Permission",
+    "Student",
+    "Teacher"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "hand_01"
+}

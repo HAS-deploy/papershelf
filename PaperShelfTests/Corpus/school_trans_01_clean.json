@@ -1,0 +1,13 @@
+{
+  "id": "school_trans_01_clean",
+  "expectedCategory": "SCHOOL",
+  "searchTerms": [
+    "Transcript",
+    "Student",
+    "School"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "school_trans_01"
+}

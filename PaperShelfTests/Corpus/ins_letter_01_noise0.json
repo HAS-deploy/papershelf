@@ -1,0 +1,13 @@
+{
+  "id": "ins_letter_01_noise0",
+  "expectedCategory": "HOME",
+  "searchTerms": [
+    "State Farm",
+    "Homeowners",
+    "Policy"
+  ],
+  "cleanPrinted": false,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "ins_letter_01"
+}

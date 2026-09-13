@@ -1,0 +1,13 @@
+{
+  "id": "lease_02_clean",
+  "expectedCategory": "HOME",
+  "searchTerms": [
+    "Lease",
+    "Landlord",
+    "Mortgage"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "lease_02"
+}

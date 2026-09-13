@@ -1,0 +1,13 @@
+{
+  "id": "utility_02_clean",
+  "expectedCategory": "HOME",
+  "searchTerms": [
+    "Water bill",
+    "Utility",
+    "HOA"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "utility_02"
+}

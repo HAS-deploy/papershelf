@@ -1,0 +1,177 @@
+2026-09-13 09:00:26.522 xcodebuild[71214:16758778] Writing error result bundle to /var/folders/7f/041lfzps4_b3tfzqkhg8sfyh0000gn/T/ResultBundle_2026-13-09_09-00-0026.xcresult
+xcodebuild: error: The project named "PaperShelf" does not contain a scheme named "papershelf". The "-list" option can be used to find the names of the schemes in the project.
+
+============================================================
+[1/10] Stage 0.5 — risk profile
+============================================================
+  ✓ risk profile filled
+
+============================================================
+[2/10] Stage 1.5 — review packet
+============================================================
+  ✓ packet present and fully filled
+
+============================================================
+[3/10] metadata-consistency
+============================================================
+
+[1] placeholder scan
+  ✓ no placeholders remaining
+
+[2] description vs. actual functionality
+  ! description contains risky claim matching /\bunlimited\b/ — defensible?
+  ! description contains risky claim matching /\bfully offline\b/ — defensible?
+
+[3] subscription language consistency
+  ✓ subscription language matches paywall declaration
+
+[4] permission usage strings
+  ! NSCameraUsageDescription present in project.yml but not declared in risk profile section 7
+  ! NSPhotoLibraryUsageDescription present in project.yml but not declared in risk profile section 7
+  ! NSFaceIDUsageDescription present in project.yml but not declared in risk profile section 7
+
+[5] privacy URL reachability
+  ✗ NOT REACHABLE: https://has-deploy.github.io/papershelf/privacy.html
+
+[6] screenshots present
+  ✗ need at least 3 iPhone screenshots, found 0
+  ! only 0 iPad screenshots — add 3+ if universal
+
+Result: 2 fail, 6 warn
+
+============================================================
+[4/10] privacy-sdk-audit
+============================================================
+
+[1] third-party SDK enumeration
+  ✓ no third-party SDKs detected
+
+[2] Apple-required SDK manifests present
+  ✓ none of the detected SDKs are on Apple's required-manifest list
+
+[3] app's own PrivacyInfo.xcprivacy
+  ✓ found at /Users/tony/Developer/papershelf/PaperShelf/Resources/PrivacyInfo.xcprivacy
+  ✓ UserDefaults declared + used + reason codes valid
+  ! NSPrivacyAccessedAPICategoryFileTimestamp declared but no code usage detected — remove to keep manifest truthful
+
+[4] NS*UsageDescription strings
+  ✗ code uses API requiring NSFaceIDUsageDescription but project.yml/Info.plist does not set it
+
+[5] privacy-answers vs. code reality
+  ✓ 'Yes, data collected' — verify the data-type matrix matches the data transmitted by the code
+
+Result: 1 fail, 1 warn
+
+============================================================
+[5/10] paywall-hard-gate
+============================================================
+[1] subscription declared?
+  ✗ subscription declaration mismatch: paywall-check says has_sub=True, risk profile says has_sub=False
+  ✓ subscription declared in both files
+
+[2] in-app checklist — every item must be checked
+  ✗ unchecked disclosure: Subscription **title** displayed (matches ASC reference name)
+  ✗ unchecked disclosure: Subscription **length** displayed ("monthly" / "yearly" / "week" / etc.)
+  ✗ unchecked disclosure: **Price** per period displayed (e.g. "$4.99/month")
+  ✗ unchecked disclosure: Price-per-unit displayed if not obvious on the primary unit
+  ✗ unchecked disclosure: Exact sentence present, verbatim:
+  ✗ unchecked disclosure: Exact sentence present, verbatim:
+  ✗ unchecked disclosure: Exact sentence present, verbatim:
+  ✗ unchecked disclosure: Exact sentence present, verbatim:
+  ✗ unchecked disclosure: Tappable **Privacy Policy** link — opens live URL (not `mailto:`)
+  ✗ unchecked disclosure: Tappable **Terms of Use (EULA)** link — opens live URL
+  ✗ unchecked disclosure: **Restore Purchases** button visible
+  ✗ unchecked disclosure: Cancel / Dismiss button visible (not a dark pattern — reviewer must
+
+[3] ASC metadata checklist
+  ✗ unchecked ASC metadata item: Privacy Policy URL populated on App Information tab (200 OK on GET)
+  ✗ unchecked ASC metadata item: EULA handled via one of:
+  ✗ unchecked ASC metadata item: Custom EULA uploaded in ASC → App Information → Custom EULA, OR
+  ✗ unchecked ASC metadata item: Terms of Use URL referenced in App Description field
+  ✗ unchecked ASC metadata item: Each subscription has its own App Store Review screenshot uploaded
+  ✗ unchecked ASC metadata item: Each subscription has pricing across all available territories
+  ✗ unchecked ASC metadata item: Each subscription state is `READY_TO_SUBMIT` before the version is
+
+[4] paywall source files contain 3.1.2(a) verbatim sentences
+  ✓ sentence found: 'Payment will be charged to your Apple ID account at confirma...'
+  ✓ sentence found: 'Subscription automatically renews unless canceled at least 2...'
+  ✓ sentence found: 'Your account will be charged for renewal within 24 hours pri...'
+  ✓ sentence found: 'Subscriptions may be managed and auto-renewal may be turned ...'
+
+[5] privacy + terms URLs reachable
+  ✗ NOT REACHABLE: https://has-deploy.github.io/papershelf/terms.html
+  ✗ NOT REACHABLE: https://has-deploy.github.io/papershelf/privacy.html
+  ✓ 200 OK: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+
+Result: 22 fail, 0 warn
+
+============================================================
+[6/10] price-integrity (NEW)
+============================================================
+
+[1] ASC SoT (optional CLI)
+  ✓ ASC SoT provided: $19.99, $39.99
+
+[2] StoreKit configuration prices
+  · PaperShelf/Resources/Configuration.storekit: prices=['$19.99', '$39.99'] intros=['null']
+  ✓ StoreKit prices: $19.99, $39.99
+
+[3] metadata.md description dollar strings
+  ✓ description dollars: $19.99, $39.99
+
+[4] customer-visible Swift/TS fallbacks (paywall/onboarding)
+  · PaperShelf/Features/Paywall/PaywallView.swift: $19.99
+  · PaperShelf/Services/PurchaseManager.swift: $1.00
+  ✓ code fallback dollars in 2 focused files
+
+[5] cross-surface agreement
+  ✓ description dollars ⊆ StoreKit
+  ✗ StoreKit ['$19.99', '$39.99'] ≠ code-fallbacks ['$1.00', '$19.99']
+  ✓ StoreKit == ASC-SoT
+  ! description ['$19.99', '$39.99'] vs code-fallbacks ['$1.00', '$19.99']
+  ✓ description dollars ⊆ ASC-SoT
+  ✗ code-fallbacks ['$1.00', '$19.99'] ≠ ASC-SoT ['$19.99', '$39.99']
+
+[6] trial narrative unity
+  ! no trial duration language found on paywall/onboarding/storekit/metadata (OK if no trial)
+
+[7] overclaim scan (paywall/products/metadata)
+  ✓ no common overclaim phrases in paywall/metadata surfaces
+
+Result: 2 fail, 2 warn
+HARD BLOCK — fix price/trial/overclaim integrity before Stage 4A/submit.
+
+============================================================
+[7/10] launch-sanity (NEW)
+============================================================
+
+[1] scheme / project.yml default tests
+  ✓ no UITests target referenced in project.yml
+
+[2] forbid treating UITests-Runner as the app
+  ✓ launch artifact rule: always install + launch <App>.app, never *UITests-Runner.app
+
+[3] launch smoke skipped (pass --run-launch to execute)
+
+Result: 0 fail, 0 warn
+
+============================================================
+[8/10] unit tests
+============================================================
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -scheme papershelf -destination "platform=iOS Simulator,name=iPhone 17" test
+
+  ✗ unit tests failed — see xcodebuild output above
+  note: if UITests-only flake, set scheme default test=unit and re-run
+
+============================================================
+[9/10] Claude agent passes (fresh session each)
+============================================================
+  Machine gates must be green before spending Claude passes on 4A/4B/4D.
+  Use a FRESH Claude Code session per pass to protect context.
+  ⚠ 5 machine gate(s) failed — fix before pasting prompts.
+
+============================================================
+[10/10] verdict
+============================================================
+BLOCKED — 5 gate(s) failed. Do not run Stage 5–9.

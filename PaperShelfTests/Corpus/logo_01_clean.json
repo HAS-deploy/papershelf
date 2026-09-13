@@ -1,0 +1,13 @@
+{
+  "id": "logo_01_clean",
+  "expectedCategory": "FINANCIAL",
+  "searchTerms": [
+    "Brokerage",
+    "Portfolio",
+    "Statement"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "logo_01"
+}

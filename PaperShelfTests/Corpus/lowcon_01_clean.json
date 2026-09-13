@@ -1,0 +1,13 @@
+{
+  "id": "lowcon_01_clean",
+  "expectedCategory": "MEDICAL",
+  "searchTerms": [
+    "Prescription",
+    "Pharmacy",
+    "Patient"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "lowcon_01"
+}

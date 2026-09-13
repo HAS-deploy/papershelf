@@ -1,0 +1,13 @@
+{
+  "id": "lab_01_crumple8",
+  "expectedCategory": "MEDICAL",
+  "searchTerms": [
+    "Lab result",
+    "Patient",
+    "Physician"
+  ],
+  "cleanPrinted": false,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "lab_01"
+}

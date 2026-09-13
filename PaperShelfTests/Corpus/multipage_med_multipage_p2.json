@@ -1,0 +1,13 @@
+{
+  "id": "multipage_med_multipage_p2",
+  "expectedCategory": "MEDICAL",
+  "searchTerms": [
+    "Patient",
+    "Physician",
+    "Lab result"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 2,
+  "pageCount": 2,
+  "sourceDoc": "multipage_med"
+}

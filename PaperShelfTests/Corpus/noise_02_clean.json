@@ -1,0 +1,13 @@
+{
+  "id": "noise_02_clean",
+  "expectedCategory": "HOME",
+  "searchTerms": [
+    "HOA",
+    "Homeowner",
+    "Utility"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "noise_02"
+}

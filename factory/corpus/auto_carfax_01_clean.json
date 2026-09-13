@@ -1,0 +1,13 @@
+{
+  "id": "auto_carfax_01_clean",
+  "expectedCategory": "AUTO",
+  "searchTerms": [
+    "Vehicle",
+    "Odometer",
+    "VIN"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "auto_carfax_01"
+}

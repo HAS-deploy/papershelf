@@ -1,0 +1,13 @@
+{
+  "id": "ins_letter_02_lowcontrast1",
+  "expectedCategory": "HOME",
+  "searchTerms": [
+    "Allstate",
+    "Home Insurance",
+    "premium"
+  ],
+  "cleanPrinted": false,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "ins_letter_02"
+}

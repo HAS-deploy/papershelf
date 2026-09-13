@@ -1,0 +1,13 @@
+{
+  "id": "auto_card_02_clean",
+  "expectedCategory": "AUTO",
+  "searchTerms": [
+    "Progressive",
+    "VIN",
+    "Automobile"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "auto_card_02"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "med_hipaa_01_clean",
+  "expectedCategory": "MEDICAL",
+  "searchTerms": [
+    "HIPAA",
+    "Patient",
+    "Medical record"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "med_hipaa_01"
+}

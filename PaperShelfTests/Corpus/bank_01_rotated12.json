@@ -1,0 +1,13 @@
+{
+  "id": "bank_01_rotated12",
+  "expectedCategory": "FINANCIAL",
+  "searchTerms": [
+    "Bank",
+    "Statement",
+    "Balance"
+  ],
+  "cleanPrinted": false,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "bank_01"
+}

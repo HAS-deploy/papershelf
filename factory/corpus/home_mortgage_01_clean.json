@@ -1,0 +1,13 @@
+{
+  "id": "home_mortgage_01_clean",
+  "expectedCategory": "HOME",
+  "searchTerms": [
+    "Mortgage",
+    "Homeowner",
+    "Payment due"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "home_mortgage_01"
+}

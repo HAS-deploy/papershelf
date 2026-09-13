@@ -1,0 +1,13 @@
+{
+  "id": "cc_02_clean",
+  "expectedCategory": "FINANCIAL",
+  "searchTerms": [
+    "Account ending",
+    "Invoice",
+    "Statement"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "cc_02"
+}

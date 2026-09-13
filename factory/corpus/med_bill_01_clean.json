@@ -1,0 +1,13 @@
+{
+  "id": "med_bill_01_clean",
+  "expectedCategory": "MEDICAL",
+  "searchTerms": [
+    "Patient",
+    "Physician",
+    "Copay"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "med_bill_01"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "repair_auto_01_clean",
+  "expectedCategory": "AUTO",
+  "searchTerms": [
+    "Vehicle",
+    "Odometer",
+    "Automobile"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "repair_auto_01"
+}

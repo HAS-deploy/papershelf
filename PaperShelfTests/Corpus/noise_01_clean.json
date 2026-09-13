@@ -1,0 +1,13 @@
+{
+  "id": "noise_01_clean",
+  "expectedCategory": "FINANCIAL",
+  "searchTerms": [
+    "IRS",
+    "Tax",
+    "Payment due"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "noise_01"
+}

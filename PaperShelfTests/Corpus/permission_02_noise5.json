@@ -1,0 +1,13 @@
+{
+  "id": "permission_02_noise5",
+  "expectedCategory": "SCHOOL",
+  "searchTerms": [
+    "School",
+    "Student",
+    "Enrollment"
+  ],
+  "cleanPrinted": false,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "permission_02"
+}

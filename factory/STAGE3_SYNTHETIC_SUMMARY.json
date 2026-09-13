@@ -1,0 +1,22 @@
+{
+  "physical_camera": "UNVERIFIED",
+  "samples": 60,
+  "clean_term_hits": 138,
+  "clean_term_total": 138,
+  "clean_term_rate": 1.0,
+  "specific_category_hits": 56,
+  "specific_category_total": 57,
+  "specific_category_rate": 0.9824561403508771,
+  "pdf_hits": 60,
+  "pdf_rate": 1.0,
+  "targets": {
+    "clean_ocr_terms": 0.95,
+    "specific_category": 0.85,
+    "pdf_valid": 1.0
+  },
+  "gates": {
+    "clean_ocr_terms": "PASS",
+    "specific_category": "PASS",
+    "pdf_valid": "PASS"
+  }
+}

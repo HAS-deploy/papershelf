@@ -1,0 +1,13 @@
+{
+  "id": "repair_home_01_clean",
+  "expectedCategory": "HOME",
+  "searchTerms": [
+    "Appliance",
+    "Warranty",
+    "Invoice"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "repair_home_01"
+}

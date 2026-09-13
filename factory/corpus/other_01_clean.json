@@ -1,0 +1,13 @@
+{
+  "id": "other_01_clean",
+  "expectedCategory": "OTHER",
+  "searchTerms": [
+    "Book",
+    "checkout",
+    "receipt"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "other_01"
+}

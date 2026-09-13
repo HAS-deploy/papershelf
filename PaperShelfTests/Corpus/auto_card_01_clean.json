@@ -1,0 +1,13 @@
+{
+  "id": "auto_card_01_clean",
+  "expectedCategory": "AUTO",
+  "searchTerms": [
+    "GEICO",
+    "VIN",
+    "Honda"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "auto_card_01"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "auto_policy_01_clean",
+  "expectedCategory": "AUTO",
+  "searchTerms": [
+    "Automobile",
+    "VIN",
+    "Driver"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "auto_policy_01"
+}

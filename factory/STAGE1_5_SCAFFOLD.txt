@@ -1,0 +1,14 @@
+✓ added docs/reviewer-demo-credentials.md to .gitignore
+
+8 files scaffolded in /Users/tony/Developer/papershelf/docs:
+  ✓ privacy.html
+  ✓ terms.html
+  ✓ support.html
+  ✓ app-review-notes.md
+  ✓ metadata.md
+  ✓ paywall-disclosure-check.md
+  ✓ app-privacy-answers.md
+  ✓ reviewer-demo-credentials.md
+
+64 placeholders left across the packet.
+Open each file and fill them before Stage 4A.

@@ -1,0 +1,13 @@
+{
+  "id": "utility_01_noise10",
+  "expectedCategory": "HOME",
+  "searchTerms": [
+    "Electric",
+    "Utility",
+    "Gas bill"
+  ],
+  "cleanPrinted": false,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "utility_01"
+}

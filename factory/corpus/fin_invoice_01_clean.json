@@ -1,0 +1,13 @@
+{
+  "id": "fin_invoice_01_clean",
+  "expectedCategory": "FINANCIAL",
+  "searchTerms": [
+    "Invoice",
+    "Payment due",
+    "Bank"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "fin_invoice_01"
+}

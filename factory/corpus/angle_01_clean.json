@@ -1,0 +1,13 @@
+{
+  "id": "angle_01_clean",
+  "expectedCategory": "AUTO",
+  "searchTerms": [
+    "DMV",
+    "Registration",
+    "VIN"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "angle_01"
+}

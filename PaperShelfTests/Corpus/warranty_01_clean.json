@@ -1,0 +1,13 @@
+{
+  "id": "warranty_01_clean",
+  "expectedCategory": "HOME",
+  "searchTerms": [
+    "Warranty",
+    "Appliance",
+    "Serial"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "warranty_01"
+}

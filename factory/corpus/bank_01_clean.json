@@ -1,0 +1,13 @@
+{
+  "id": "bank_01_clean",
+  "expectedCategory": "FINANCIAL",
+  "searchTerms": [
+    "Bank",
+    "Statement",
+    "Balance"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "bank_01"
+}

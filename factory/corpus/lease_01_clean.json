@@ -1,0 +1,13 @@
+{
+  "id": "lease_01_clean",
+  "expectedCategory": "HOME",
+  "searchTerms": [
+    "Lease",
+    "Landlord",
+    "Rent"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "lease_01"
+}

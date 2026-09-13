@@ -1,0 +1,13 @@
+{
+  "id": "multipage_lease_multipage",
+  "expectedCategory": "HOME",
+  "searchTerms": [
+    "Lease",
+    "Landlord",
+    "Rent"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 2,
+  "sourceDoc": "multipage_lease"
+}

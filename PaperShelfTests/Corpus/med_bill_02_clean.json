@@ -1,0 +1,13 @@
+{
+  "id": "med_bill_02_clean",
+  "expectedCategory": "MEDICAL",
+  "searchTerms": [
+    "Hospital",
+    "Patient",
+    "Pharmacy"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "med_bill_02"
+}

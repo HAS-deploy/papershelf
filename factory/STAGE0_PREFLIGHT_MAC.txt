@@ -1,0 +1,13 @@
+
+preflight for: PaperShelf  /  com.papershelf.app
+────────────────────────────────────────────────────────────
+  [✓] iTunes Search (App Store)         PASS  No exact or near-exact matches in iTunes Search (24 loose hits scanned)
+  [✓] ASC app name (our account)        PASS  No ASC app named 'PaperShelf' in our account
+  [✓] ASC bundle ID (our account)       PASS  Bundle ID com.papershelf.app globally available
+  [!] Domain .com / .app                WARN  papershelf.com: registered / papershelf.app: unclear from WHOIS
+  [✓] GitHub repo slug                  PASS  Repo slug HAS-deploy/papershelf is unused
+  [·] Trademark (TESS)                  INFO  Manual trademark check: https://tmsearch.uspto.gov/search/search-information?searchInformation=PaperShelf
+
+summary: 4 pass · 1 warn · 0 fail
+
+verdict: proceed with eyes open — WARN items are non-blocking but review each.

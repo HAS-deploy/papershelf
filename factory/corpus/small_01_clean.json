@@ -1,0 +1,13 @@
+{
+  "id": "small_01_clean",
+  "expectedCategory": "MEDICAL",
+  "searchTerms": [
+    "Patient",
+    "Copay",
+    "Health plan"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "small_01"
+}

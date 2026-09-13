@@ -1,0 +1,13 @@
+{
+  "id": "other_02_clean",
+  "expectedCategory": "OTHER",
+  "searchTerms": [
+    "Latte",
+    "muffin",
+    "Thank you"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "other_02"
+}

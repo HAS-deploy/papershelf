@@ -1,0 +1,13 @@
+{
+  "id": "lab_01_clean",
+  "expectedCategory": "MEDICAL",
+  "searchTerms": [
+    "Lab result",
+    "Patient",
+    "Physician"
+  ],
+  "cleanPrinted": true,
+  "pageIndex": 1,
+  "pageCount": 1,
+  "sourceDoc": "lab_01"
+}
