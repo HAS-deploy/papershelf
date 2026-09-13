@@ -10,7 +10,7 @@
 
 **Do you or your third-party partners collect data from this app?**
 
-- [ ] **No, we do not collect data from this app.**
+- [x] **No, we do not collect data from this app.**
       Choose this if and only if:
       - The app has no accounts + no signed-in users
       - No analytics SDK (no Firebase, no PostHog, no Mixpanel, no Amplitude)

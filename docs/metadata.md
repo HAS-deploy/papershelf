@@ -122,7 +122,8 @@ setting per-territory prices when subs exist.
 
 | Product ID | Reference name | Price | Subscription? |
 |---|---|---|---|
-| com.papershelf.app.unlimited.annual | Unlimited Annual | $19.99/year | Unlimited Annual auto-renewable subscription |
+| com.papershelf.app.unlimited.yearly | Unlimited Yearly | $19.99/year | Yes — auto-renewable annual |
+| com.papershelf.app.unlimited.lifetime | Unlimited Lifetime | $39.99 | No — non-consumable |
 
 ## Screenshots
 
